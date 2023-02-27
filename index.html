@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="profile">
+          <img src="assets/img/perfil.png" alt="" />
+          <a href="#" class="nav__logo">Doddy</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">QuickInfo</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home section bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'm <strong><span class="home__title-color">Doddy</span> Kalimba
+            Kwizera</strong><br />
+            I provide a detail-oriented approach to designing and delivering high-quality software solutions.
+          </h1>
+
+          <a href="assets/pdf/Doddy KALIMBA KWIZERA Resume.pdf" target="_blank" class="button">My Resume</a>
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/kalimba-kwizera-doddy/" class="home__social-icon" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/KKDoddy" class="home__social-icon" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="mailto:kwizeradoddy@gmail.com" class="home__social-icon" target="_blank" title="email"><i class='bx bxs-envelope' ></i></a>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/about.jpg" alt="" />
+          </div>
+
+          <div>
+            <!-- <h2 class="about__subtitle">My name is Doddy</h2> -->
+            <p class="about__text">
+              As a Software Engineer, I mostly specialize in developing web and mobile
+              applications using JavaScript and its variety of frameworks
+              and libraries including NodeJS, Express, React, and React Native;
+              I'm well-equipped to take on complex development challenges, and my diverse skill set allows me to create cutting-edge applications that meet and exceed client expectations.
+              <p class="about__text">Beyond my software engineering skills, I'm also passionate about real estate
+              management.</p>
+              <br>
+              <p class="about__text">
+                I am a graduate from <strong>Adventist University of Central Africa</strong> with a B.S. in Information Technology, Major in Software Engineering. I'm currently working at <strong>Charis UAS</strong>, where we're building a construction site monitoring platform that creates virtual-site views and provides remote teams with near-real-time updates and insights of their construction projects.
+              </p>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Languages</h2>
+            <ul>
+                <li class="about__text">JavaScript</li>
+                <li class="about__text">Typescript</li>
+                <li class="about__text">Java</li>
+                <li class="about__text">HTML</li>
+                <li class="about__text">CSS</li>
+                <li class="about__text">SQL</li>
+            </ul>       
+          </div>
+          <div>
+            <h2 class="skills__subtitle">Frameworks</h2>
+            <ul>
+                <li class="about__text">React</li>
+                <li class="about__text">Redux</li>
+                <li class="about__text">React Native</li>
+                <li class="about__text">Express Js</li>
+                <li class="about__text">NestJs</li>
+                <li class="about__text">Spring</li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="skills__subtitle">Tools</h2>
+            <ul>
+                <li class="about__text">Git & Github</li>
+                <li class="about__text">Postgres</li>
+                <li class="about__text">Firebase</li>
+                <li class="about__text">Postman</li>
+                <li class="about__text">Yarn</li>
+                <li class="about__text">NPM</li>
+                <li class="about__text">Pivotal Tracker</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="work__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Charis UAS</h2>
+            <p class="about__text"><small>September 2021 – Present</small></p>
+            <br>
+            <p class="about__text"><strong>Software Engineer</strong></p>
+          </div>
+          <div>
+            <h2 class="skills__subtitle">Andela Rwanda</h2>
+            <p class="about__text"><small>January 2020 – 2020-May</small></p>
+            <br>
+            <p class="about__text"><strong>Apprentice Software Enginer</strong></p>
+          </div>
+          <div>
+            <h2 class="skills__subtitle">Francos Real Estate</h2>
+            <p class="about__text"><small>August 2020 – Present</small></p>
+            <br>
+            <p class="about__text"><strong>Real estate management</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="info_disclaimer">
+            <p class="about__text">Thank you for your interest. If you're up for a collaboration, or you're looking to hire me, please don't hesitate to contact me. I'll be sure to respond to your emails or return your calls promptly.</p>
+        </div>
+        <div class="contact__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle"><i class='bx bxs-phone' ></i></h2>
+            <p class="about__text">Phone</p>
+            <br>
+            <p class="about__text"><strong>+250 782 244 544</strong></p>
+          </div>
+          <div>
+            <h2 class="skills__subtitle"><i class='bx bxs-envelope' ></i></h2>
+            <p class="about__text">Email</p>
+            <br>
+            <p class="about__text"><strong>kwizeradoddy@gmail.com</strong></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Doddy KALIMBA KWIZERA</p>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/kalimba-kwizera-doddy/" class="footer__icon" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/KKDoddy" class="footer__icon" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="mailto:kwizeradoddy@gmail.com" class="footer__icon" target="_blank" title="email"><i class='bx bxs-envelope' ></i></a>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
